@@ -1,0 +1,19 @@
+name: SayHi
+
+options:
+  bundleIdPrefix: com.sayhi
+
+targets:
+  SayHi:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+
+    sources:
+      - SayHi
+
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sayhi.app
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
